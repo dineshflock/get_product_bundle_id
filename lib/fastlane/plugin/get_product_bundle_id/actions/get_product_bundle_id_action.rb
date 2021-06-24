@@ -19,7 +19,7 @@ module Fastlane
 
           build_configuration = xcbuildconfiguration(target, params[:build_configuration])
         end
-        build_configuration.build_settings['PRODUCT_BUNDLE_IDENTIFIER']
+        build_configuration.build_settings
       end
 
       def self.xcscheme(params)
